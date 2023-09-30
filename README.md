@@ -92,13 +92,13 @@ Plug 'tpope/vim-commentary'		    # [count]gc{motion}, o_gc, v_gc, gcc
 
 ## TODO
 
---[ ] Automagic function documentation (non Doxygen format), I assume this goes into Settings > Editor > Code, but need some custom includes for post function body?
+- [ ] Automagic function documentation (non Doxygen format), I assume this goes into Settings > Editor > Code, but need some custom includes for post function body?
 ```
 type methodIdentifier(type parameterIdentfier, …);
 // description of purpose
 // pre(conditions): state anything that must be true for the method to work properly
 // post(conditions): state changes that affect class members
 ```
---[ ]  Screen shots for setup instructions
---[ ]  Additional Plug-in explorations
+- [ ]  Screen shots for setup instructions
+- [ ]  Additional Plug-in explorations
 
