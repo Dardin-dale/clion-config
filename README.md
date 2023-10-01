@@ -1,6 +1,13 @@
 # clion-config
 Configuration for CLion C++ development for CPSC 5005 (2023)
 
+## [CheatSheet](https://resources.jetbrains.com/storage/products/clion/docs/CLion_ReferenceCard.pdf)
+
+- `CTRL-Alt-l` - run code formatter
+- `CTRL-Alt-s` - Open ssh session
+- `Alt-F12` - open/close Terminal
+- `CTRL-Alt-A` - find possible actions
+
 ## Auto Formating
 
 I've included two different formatting adjustments from the CLion default code formating.
