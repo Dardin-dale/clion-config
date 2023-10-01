@@ -7,6 +7,7 @@ Configuration for CLion C++ development for CPSC 5005 (2023)
 - `CTRL-Alt-s` - Open ssh session
 - `Alt-F12` - open/close Terminal
 - `CTRL-Alt-A` - find possible actions
+- `Alt-Insert` - run automatic code generation (create new class from file explorer, create methods from code editor)
 
 ## Auto Formating
 
