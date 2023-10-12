@@ -36,6 +36,9 @@ Copy the following into the C File Header Template:
 //  $USER_NAME
 //  ${FILE_NAME}
 //  ${DATE}
+#if ($ORGANIZATION_NAME && $ORGANIZATION_NAME != "")
+// Copyright (c) $YEAR ${ORGANIZATION_NAME}#if (!$ORGANIZATION_NAME.endsWith(".")).#end All rights reserved.
+#end
 //  Purpose: TODO -- add description
 //
 #end
