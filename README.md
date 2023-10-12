@@ -11,9 +11,10 @@ Configuration for CLion C++ development for CPSC 5005 (2023)
 
 ## Auto Formating
 
-I've included two different formatting adjustments from the CLion default code formating.
-- `Default.xml` - Simple, agnostic to conditionals and loop brackets.
-- `Strict.xml` - forces using brackets for multiline blocks.
+I've included formatting adjustments from the CLion default code formating.
+- `Default.xml`
+  - agnostic to conditionals and loop brackets.
+  - sets char limit to 80 for typing
 
 By default the command to re-format the code file is: `CTRL-Alt-l` or `CTRL-Alt-Shift-L` (whole project)
 
