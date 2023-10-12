@@ -28,7 +28,13 @@ nnoremap <C-v> "*p
 nnoremap <leader>w :w!<cr>
 nnoremap <C-s> :w!<cr>
 inoremap <C-c> <esc>
-nnoremap <leader>f <Action>(ReformatCode)
+nnoremap <leader>f :action ReformatCode<CR>
+
+#Code Generation
+nnoremap <leader>gc :action GenerateConstructor<CR>
+nnoremap <leader>gg :action GenerateGetterandSetter<CR>
+nnoremap <leader>go :action OverrideMethods<CR>
+nnoremap <leader>gd :action CodeCompletion<CR>
 
 nmap gb <Action>(Back)
 nmap gD <Action>(GotoTypeDeclaration)
